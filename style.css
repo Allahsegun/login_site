@@ -1,0 +1,111 @@
+body{
+    background:#f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+header{
+    margin-top:50px;
+}
+header span{
+    padding: 25px 0px;
+    width:100%;
+    text-align: center;
+    /* margin:30px 0; */
+    color:#063fa8;
+    /* margin-top:50px; */
+    border:3px solid #063fa8;
+    font-size: 30px;
+    background: #f6f6f6;
+    display:block;
+}
+label{
+    display:block;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    margin:30px 0px 10px 0px;
+}
+button{
+    margin: 30px 0 10px 0;
+    padding: 10px 0px;
+    width:100px;
+    display: block;
+    outline:none;
+    color:white;
+    background: #063fa8;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing:3px;
+    border-radius: 20px;
+}button:hover{
+    outline:none;
+    border:3px solid  #063fa8;
+    color:  #063fa8;
+    background: #f4f4f4;
+}
+input{
+    padding: 15px;
+    width:200px;
+    outline: none;
+    transition: transform 0.3s;
+}
+input:hover{
+    transform: scale(1.1);
+     
+}
+input:focus{
+    transform: scale(1.1);
+    outline:none;
+    border:3px solid  #063fa8;
+}
+.error-msg{
+    color:#ff0000;
+    margin:10px 0px;
+    text-align: center;
+
+}
+.pass-msg{
+    color:green;
+    margin:10px 0px;
+    text-align: center;
+}
+#msg{
+    transition:0.5s;
+}
+.msg-area{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 3px;
+}
+ul{
+    list-style: none;
+}
+a{
+    margin: 30px 0 10px 0;
+    padding: 10px 0px;
+    width:100px;
+    display: block;
+    outline:none;
+    color:white;
+    background: #063fa8;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing:3px;
+    border-radius: 20px;
+}
+a:hover{
+    transform:scale(1);
+    outline:none;
+    border:3px solid  #063fa8;
+    color:  #063fa8;
+    background: #f4f4f4;
+}
+li{
+    box-sizing: border-box;
+    
+}
